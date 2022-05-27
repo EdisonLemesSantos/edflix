@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
   border: 2px solid;
-  border-radius: 4px;
+  border-radius: 10px;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
@@ -15,7 +15,7 @@ export const VideoCardContainer = styled.a`
   background-position: center;
   border-radius: 10px;
   position: relative;
-  display: flex;
+  display: inline-block;
   align-items: flex-end;
   padding: 16px;
 
